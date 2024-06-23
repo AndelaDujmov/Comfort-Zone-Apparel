@@ -1,0 +1,15 @@
+#image{
+    width: 250px;
+    height: 300px;
+}
+
+#container{
+    width: 250px;
+    height: 400px;
+    background-color: #eae7e6;
+}
+
+#container #image:hover{
+    width: 300px;
+    height: 400px;
+}

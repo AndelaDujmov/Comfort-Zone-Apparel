@@ -1,0 +1,9 @@
+#productsContainer{
+    display: flex;
+    width: 90vw; 
+    gap: 22px;
+    overflow: hidden;
+    position: relative;
+    right: 20px;
+    left: -180px;
+}
