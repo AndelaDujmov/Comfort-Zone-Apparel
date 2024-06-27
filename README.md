@@ -1,16 +1,43 @@
 
 # Comfort Zone Apparel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Short Description
+This project aims to ...
 
-Currently, two official plugins are available:
+- **Time Spent:** 
+    In total two days
+- **Most Challenging Implementation:**
+   The most challenging part was organizing the components, creating the context, and using new React hooks, such as useParams. 
+- **Most Proud Implementation:**
+    I am most proud of the detailed components, the appearance, and the animations of the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure and Considerations
 
-## Expanding the ESLint configuration
+### Structure Overview
+- **Project Structure:** 
+  - `src/`: Contains all source code.
+  - `src/components`: Contains all components used in this project. Three main components are: Navbar, ProductDetails, ProductList
+  - `src/context`: Contains React context and provider that fetches data.
+  - `src/props`: Contains all properties and types.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Considerations
+- **Libraries and Frameworks used:**
+    - Emotion
+    - MUI
+    - Axios
+    - styled-components 
+    - React Router
 
-- Configure the top-level `parserOptions` property like this:
+## How to Use
+With the help of the Terminal, we need to enter the newly created directory, run the command  ```npm install``` to install all the necessary dependency libraries, and then run the application itself with the command npm run dev.
+
+```bash
+    cd [project_name]
+
+    npm install
+
+    npm run dev
+```
+
+
 
