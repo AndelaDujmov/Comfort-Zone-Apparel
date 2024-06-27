@@ -2,7 +2,7 @@
 # Comfort Zone Apparel
 
 ## Short Description
-This project aims to ...
+This project aims to describe a storefront of a casual clothing online store. It contains T-shits and trousers in all colors. Users can filter clothing based on gender or color.
 
 - **Time Spent:** 
     In total two days
