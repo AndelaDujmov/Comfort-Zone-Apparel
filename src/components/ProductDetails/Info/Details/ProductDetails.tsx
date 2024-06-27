@@ -11,6 +11,7 @@ import { ColorsContext } from "../../../../context/ColorsProvider";
 import Description from "../Description/Description";
 import Price from "../Price/Price";
 import Quantity from "../Quantity/Quantity";
+import Materials from "../Materials/Materials";
 
 
 const ProductDetails = () => {
@@ -49,7 +50,10 @@ const ProductDetails = () => {
                 </div>
                 <div>
                     <ActionButton count={count} setCount={setCount}/>
-                </div>   
+                </div>  
+                <div>
+                    <Materials materials={product.materials}/>
+                </div> 
             </div>
         </div>
         </>

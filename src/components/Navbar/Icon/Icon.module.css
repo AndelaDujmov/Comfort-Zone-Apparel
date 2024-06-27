@@ -1,0 +1,9 @@
+#container{
+    justify-content: center;
+    margin-left: 850px;
+}
+
+#icon{
+    width: 80px;
+    height: 80px;
+}

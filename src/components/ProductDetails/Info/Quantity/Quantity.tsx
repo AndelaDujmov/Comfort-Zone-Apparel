@@ -9,7 +9,7 @@ const Quantity = () => {
     }
 
     const decrement = () => {
-        setQuantity(value => value > 0 ? value - 1 : 0);
+        setQuantity(value => value > 1 ? value - 1 : 1);
     }
 
     return (
@@ -17,7 +17,7 @@ const Quantity = () => {
             <div id={module.container}>
                 <button className={module.controller} onClick={decrement}>&mdash;</button>
                 <p id={module.display}>{quantity}</p>
-                <button className={module.controller} onClick={increment}> &#xff0b;</button>
+                <button className={module.controller} onClick={increment}>&#xff0b;</button>
             </div>
         </>
     )

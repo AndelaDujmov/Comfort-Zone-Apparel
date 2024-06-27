@@ -9,3 +9,15 @@
 #productsContainer{
   width: 100%;
 }
+
+#container{
+  padding: 22px;
+  color: white; 
+  width: 110vw;  
+  position: fixed;
+  margin-top: -22px;
+  margin-left: -30px;
+  top: 0;
+  left: 0; 
+  z-index: 1; 
+}

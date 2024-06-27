@@ -6,10 +6,14 @@ import ProductDetails from './components/ProductDetails/Info/Details/ProductDeta
 import { ProductProvider } from './context/ProductsProvider';
 import { SizeProvider } from './context/SizeProvider';
 import { ColorsProvider } from './context/ColorsProvider';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <>
+    <div id='container'>
+      <Navbar />
+    </div>
     <ProductProvider>
       <SizeProvider>
         <ColorsProvider>
