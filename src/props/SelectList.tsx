@@ -1,0 +1,3 @@
+interface SelectList {
+    items: string[];
+}

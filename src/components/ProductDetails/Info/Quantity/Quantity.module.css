@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid lightgray; 
+    border-width: 0.4px;
+    border-radius: 12px;
+    transition: border-width 0.0001s; 
+    width: 20vw;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 12px;
+}
+
+#container:hover {
+    border-color: black;
+}
+
+.controller{
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#display{
+    padding-left: 90px;
+    padding-right: 90px;
+}

@@ -1,6 +1,6 @@
 #productsContainer{
     display: flex;
-    width: 90vw; 
+    width: 100vw; 
     gap: 22px;
     overflow: hidden;
     position: relative;

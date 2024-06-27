@@ -5,9 +5,7 @@ import { ProductContext } from '../../context/ProductsProvider';
 
 
 const ProductList = () => {
-    const products = useContext(ProductContext);
-
-    console.log(products);
+    const products : Product[] = useContext(ProductContext);
 
     return (
         <div id={module.productsContainer}>
